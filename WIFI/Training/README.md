@@ -30,4 +30,4 @@ How many wireless networks are there?
 
 Command needed: `airodump-ng wlan0mon`
 <br>Flag: `flag{8}`
-<br>*There are 10 networks total, but the last two are not be visible using just the basic airodump command and are dealt with in later challenges.*
+<br>*There are 10 networks total, but the last two are not visible using just the basic airodump command and are dealt with in later challenges.*
