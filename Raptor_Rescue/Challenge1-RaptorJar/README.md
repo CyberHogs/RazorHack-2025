@@ -1,4 +1,5 @@
 # Who Took a Raptor From the Raptor Jar?
+### By Chef J. Pex
 
 ## Description:
 The players are given `logs.json` and a map of the raptor cages to figure out why raptors have been going missing recently. They must figure out which employee ID belongs to who by checking GM badges. The flag is the name of the employee who is suspected of stealing baby raptors.

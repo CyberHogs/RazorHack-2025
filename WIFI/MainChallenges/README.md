@@ -1,4 +1,5 @@
 # Wi-Fi Challenges
+### By Chef J. Pex
 
 ## Description:
 * Challenges 1-3 are about wireless network reconnaissance and password cracking.  The players are expected to use the Aircrack-ng suite documentation they will have explored in the WiFi training and online searches to solve these.

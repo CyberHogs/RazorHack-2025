@@ -1,4 +1,5 @@
 # Intro Wi-Fi Challenges
+### By Chef J. Pex
 
 ## Description:
 Three training challenges for my WIFI challenges with demo video.  The expectation was for competitors to have to look up how to do these challenges and how to use the Aircrack-ng suite.
