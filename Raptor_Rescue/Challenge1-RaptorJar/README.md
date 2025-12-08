@@ -22,5 +22,5 @@ Using this information, who should be the primary suspect?
 <details>
 <summary>Flag</summary>
 
-`flag{Chef J. Pex}`
+`flag{Chef J. Pex}` or `flag{Chef J Pex}`
 </details>
