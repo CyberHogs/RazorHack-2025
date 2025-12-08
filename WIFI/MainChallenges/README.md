@@ -15,6 +15,8 @@ There is a spy from a rival theme park on the premises! Their last known locatio
 
 What is the MAC address of their device?
 <br>Format: flag{MAC_ADDR}
+<br>
+<br>Website needed: https://maclookup.app/
 <br>Flag: `flag{C4:93:D9:47:A2:80}`
 
 
@@ -36,13 +38,15 @@ The Dino Fun Park WiFi is password-protected using WPA2 security, which is typic
 
 There is a wordlist of leaked passwords called `rockyou.txt` on your machine. Use it to crack the password to the network.
 <br>Format: flag{password}
-<br>Command Needed: `aircrack-ng [output file].cap -w [wordlist file].txt`
+<br>
+<br>Additional Command Needed: `aircrack-ng [output file].cap -w [wordlist file].txt`
 <br>Flag: `flag{thebridge}`
 
 
 ## Challenge 4: Remote AP
 
 What is the password to this "remote" access point?
+<br>
 <br>Flag: `flag{trashman}`
 <br>**Challenge 4 Demo:** https://youtu.be/otxMHNBoJes
 <br>**Note:** The demo video ends a little early, but once competitors find the AP, the process is the same as Challenge 3.
