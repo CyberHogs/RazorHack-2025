@@ -1,0 +1,11 @@
+FROM alpine:3.20
+RUN apk add --no-cache python3 socat
+WORKDIR /app
+COPY server /app/server
+COPY start.sh /app/start.sh
+RUN chmod +x /app/server /app/start.sh
+# Run as non-root; only use ports >=1024
+USER nobody
+ENV PORTS=12001,12002,12003,12004,12005,12006,12007,12008,12009,12012,12012,12012,12013,12014,12015,12016,12017,12018,12019,12020,12021,12022,12023,12024,12025,12026,12027,12028,12029,12030,12031,12032,12033,12034
+EXPOSE 12001-12034
+CMD ["/app/start.sh"]
